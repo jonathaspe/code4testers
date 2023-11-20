@@ -11,8 +11,13 @@
 
 bandas = ["Anjos de Resgate", "Rosa de Saron", "Adriana Arydes", "Bruno Camurati", "Missionários Shalom"]
 
-i = 0
-bandas.size.times do
-    puts bandas[i]
-    i = i + 1
+# i = 0
+# bandas.size.times do
+#     puts bandas[i]
+#     i = i + 1
+# end
+
+#O resultado do each é igual ao código de cima, sendo é mais enxuto
+bandas.each do |banda|
+    puts banda
 end
